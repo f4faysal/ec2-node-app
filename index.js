@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send({
     message: "Hello World!",
     name: "Faysal Hossain",
-    email: "f4faysals@gmail.com",
+    email: "f4faysals@gmail.com ",
     address: {
       city: "Dhaka",
       country: "Bangladesh",
