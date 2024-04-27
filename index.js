@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
     email: "f4faysals@gmail.com",
     phone: "01700000000",
     profession: "Software Engineer",
-
+    server : "Node.js nginx",
     address: {
       city: "Dhaka",
       country: "Bangladesh",
