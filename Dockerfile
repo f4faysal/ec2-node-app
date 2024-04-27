@@ -10,5 +10,7 @@ RUN yarn install
 COPY . .
 # Expose the port
 EXPOSE 8000
-# Start the application
-CMD ["yarn", "start"]
+# Set the entrypoint to the entrypoint.sh
+RUN ["chmod" , "+x" , "./entrypoint.sh"]
+# Run the app with the entrypoint
+ENTRYPOINT [ "sh" , "./entrypoint.sh" ]
